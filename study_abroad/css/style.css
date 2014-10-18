@@ -1,0 +1,895 @@
+body{
+    width: 1366px;
+}
+.head{
+    width: 1000px;
+    height: 50px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 210px;
+    height: 50px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.head_list{
+    width: 467px;
+    height: 24px;
+    padding: 13px 0 13px 22px;
+    float: left;
+}
+.head_child_fli{
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.head_child_fli span{
+    display: inline-block;
+    width: 8px;
+    height: 4px;
+    margin: 9px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../img/sprites_base.png") no-repeat center center;
+    background-position: -393px 0;
+    overflow: hidden;
+}
+.head_child_li_end{
+    border: none;
+}
+.head_child_list{
+    display: none;
+    width: 60px;
+    margin: 0;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 24px;
+    background: #fff;
+    z-index: 1000;
+}
+.head_child_li{
+    width: 60px;
+    border-bottom: 1px solid #ccc;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.head_child_li a{
+    display: inline-block;
+    width: 100%;
+}
+.search{
+    width: 301px;
+    height: 27px;
+    padding: 9px 0;
+    float: right;
+    position: relative;
+}
+.search_text{
+    width: 241px;
+    height: 27px;
+    padding-left: 6px;
+    line-height: 27px;
+    font-size: 10px;
+    color: #333;
+    border: none;
+    background: #ccc;
+}
+.btn{
+    width: 54px;
+    height: 27px;
+    background: url("../img/sprites_base.png") no-repeat;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    border: none;
+}
+.nav{
+    width: 100%;
+    height: 125px;
+}
+.nav_menu{
+    width: 100%;
+    height: 65px;
+    background: url("../img/sprites_base.png");
+    background-position: left bottom;
+}
+.menu{
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    background: url("../img/sprites_base.png");
+    background-position: left bottom;
+}
+.menu li{
+    float: left;
+    position: relative;
+}
+.menu li a{
+    display: block;
+    width: 145px;
+    padding-left: 55px;
+    font: 18px/65px "Microsoft Yahei", SimSun;
+    color: #fff;
+    background:url("../img/sprites_base.png") no-repeat;
+    background-position: 0 -27px;
+}
+.menu li a:link,.menu li a:active,.menu li a:hover{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.menu li a.country{
+    background-position: 0 -92px;
+}
+.menu li a.sns{
+    background-position: 0 -157px;
+}
+.menu li a.know{
+    background-position: 0 -222px;
+}
+.menu li a.about{
+    background-position: 0 -287px;
+}
+.menu li b{
+    display: block;
+    width: 10px;
+    height: 6px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background:url("../img/sprites_base.png") no-repeat;
+    background-position:  -390px -6px;
+    z-index: 10;
+}
+.menu li.cur{
+    height: 61px;
+    border-bottom:4px solid #10A8AB;
+    background: #34312C;
+    overflow: hidden;
+}
+.menu li.cur a{
+    background-position: -200px -27px;
+}
+.menu li.cur a.country{
+    background-position: -200px -92px;
+}
+.menu li.cur a.sns{
+    background-position: -200px -157px;
+}
+.menu li.cur a.know{
+    background-position: -200px -222px;
+}
+.menu li.cur a.about{
+    background-position: -200px -287px;
+}
+.country_list{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+.country_list ul{
+    float: left;
+    margin: 10px 0;
+}
+.country_list ul li{
+    height: 10px;
+    line-height: 10px;
+    padding: 0 14px;
+    border-right:1px solid #F3F3F3;
+    float: left;
+}
+.country_list ul li a{
+    display: inline-block;
+    padding: 3px 5px;
+    background: #fff;
+    color: #929292;
+}
+.country_list ul.on li a{
+    background: #00f;
+}
+/*主体*/
+/*主体--1*/
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main_one{
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+.main_one_left{
+    width: 235px;
+    height: 310px;
+    background: #FF6C0D;
+    float: left;
+    margin-right: 20px;
+}
+.main_one_left h2{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 70px;
+    color: #fff;
+    background: #FE5A01;
+    position: relative;
+}
+.main_one_left h2 b{
+    display: block;
+    width: 235px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../img/sprites.png") no-repeat;
+}
+.main_one_left ul{
+
+}
+.main_one_left ul li{
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    *z-index: 1;
+}
+.main_one_left ul li h3 span{
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 70px;
+    background: url("../img/sprites.png") no-repeat;
+    *height: 34px;
+    *line-height: 34px;
+}
+.main_one_left ul li h3.school span{
+    background-position: 0 -53px;
+}
+.main_one_left ul li h3.exchange span{
+    background-position: 0 -88px;
+}
+.main_one_left ul li h3.learn span{
+    background-position: 0 -123px;
+}
+.main_one_left ul li h3.subject span{
+    background-position: 0 -158px;
+}
+.main_one_left ul li h3.seek span{
+     background-position: 0 -193px;
+ }
+.main_one_left ul li h3.interaction span{
+    background-position: 0 -228px;
+}
+.main_one_left ul li h3.promote span{
+    background-position: 0 -263px;
+}
+.main_one_left ul li.current h3.school span{
+    background-position: -235px -53px;
+}
+.main_one_left ul li.current h3.exchange span{
+    background-position: -235px -88px;
+}
+.main_one_left ul li.current h3.learn span{
+    background-position: -235px -123px;
+}
+.main_one_left ul li.current h3.subject span{
+    background-position: -235px -158px;
+}
+.main_one_left ul li.current h3.seek span{
+    background-position: -235px -193px;
+}
+.main_one_left ul li.current h3.interaction span{
+    background-position: -235px -228px;
+}
+.main_one_left ul li.current h3.promote span{
+    background-position: -235px -263px;
+}
+.main_one_left ul li h3 b{
+    display: block;
+    width: 10px;
+    height: 16px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: right -310px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.main_one_left ul li.current h3 b{
+    background-position: right -325px;
+}
+.second_menu{
+    position: absolute;
+    left: 235px;
+    top: 0;
+    width: 510px;
+    padding: 5px 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 1000;
+    display: none;
+}
+.second_menu h4{
+    display: block;
+    width: 70px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+    float: left;
+}
+.second_menu div{
+    float: right;
+    width: 420px;
+}
+.second_menu div a{
+    display: inline-block;
+    padding: 0 5px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+    border-right: 1px solid #ccc;
+}
+.main_one_center{
+    width: 490px;
+    float: left;
+}
+.banner{
+    width: 490px;
+    height: 310px;
+    position: relative;
+}
+.main_one_right{
+    width: 235px;
+    float: right;
+    height: 255px;
+    background: #fff;
+}
+.news_nav{
+    height: 27px;
+    border-bottom: 1px solid #F3F3F3;
+}
+.news_list ul{
+    display: none;
+}
+.news_list ul.news_list_cur{
+    display: block;
+}
+.news_nav li{
+    float: left;
+}
+.news_nav li a{
+    display: block;
+    width: 76px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #333;
+}
+.news_nav li.hovers a{
+    color: #FF6A0A;
+    border: 1px solid #ccc;
+ }
+.news_list ul li{
+    line-height: 23px;
+    height: 23px;
+    padding: 6px 0 0 15px;
+    background: url("../img/sprites_sub.png") no-repeat;
+    background-position: left -112px;
+    overflow: hidden;
+}
+ .news_list ul li.new_cur{
+     background-position: left -138px;
+ }
+.pics{height:310px;
+    overflow:hidden;}
+
+.pic_nav{height:20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.pic_nav li{float:left;
+    width: 98px;
+    height: 20px;
+    cursor:pointer;
+    background: rgba(51, 51, 51, 0.13);
+}
+
+.pic_nav li.onl{background: rgba(105, 105, 105, 0.83);}
+/*主体部分标题*/
+.main_two_left{
+    width: 745px;
+    float: left;
+    margin-top: 25px;
+}
+.main_title{
+    width: 715px;
+    color: #ff6406;
+    font: bold 18px "Microsoft Yahei", SimSun;
+    line-height: 24px;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.main_title i{
+    display: block;
+    width: 24px;
+    height: 28px;
+    background: url(../img/sprites.png) no-repeat;
+    background-position: left -357px;
+    position: absolute;
+    left: 6px;
+    top: 0;
+}
+.main_title a{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+/*个人游学部分*/
+.main_two_list{
+    height: 324px;
+}
+.main_two_list dl{
+    width: 137px;
+    height: 324px;
+    margin-right: 15px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.main_two_list dl dt{
+    height: 187px;
+    padding-bottom: 47px;
+}
+.main_two_list dl.main_two_list_last_dl{
+    margin-right: 0;
+}
+.main_two_list dl dd.main_two_list_dd_title{
+    width: 118px;
+    height: 36px;
+    *height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #FF6704;
+    position: absolute;
+    left: 50%;
+    margin-left: -56px;
+    top: 164px;
+ }
+.main_two_list dl dd.main_two_list_dd_title a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.main_two_list dl dd.main_two_list_dd_text{
+    width: 121px;
+    height: 80px;
+    line-height: 20px;
+    padding: 10px 8px 8px 5px;
+    background: #eee;
+    position: relative;
+}
+.main_two_list dl dd.main_two_list_dd_text span{
+    display: block;
+    width: 30px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    margin-left: -15px;
+    background: url("../img/sprites.png") no-repeat;
+    background-position: -16px -311px;
+}
+.main_two_right{
+    margin-top: 25px;
+    width:235px;
+    float: right;
+}
+.main_two_right_top h2,.main_two_right_bottom h2,.main_three_right_top h2{
+    padding-left: 44px;
+    height: 44px;
+    line-height: 44px;
+    padding-right: 10px;
+    background: #34312C;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+.main_two_right_top b{
+    display: block;
+    width: 38px;
+    height: 30px;
+    background: url(../img/sprites_sub.png) no-repeat;
+    background-position: 0 -12px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.entry_form{
+    background: #eee;
+    height: 190px;
+    *height: 190px;
+}
+.entry_form label{
+    display: block;
+    padding-top: 8px;
+    line-height: 25px;
+    overflow: hidden;
+    cursor: default;
+}
+.entry_form label span{
+    display: block;
+    width: 60px;
+    text-align: center;
+    float: left;
+}
+.entry_form label input{
+    float: left;
+    border: none;
+    line-height: 25px;
+    background: #fff;
+}
+.entry_form label .text{
+    width: 145px;
+    height: 25px;
+}
+.entry_form label .sel{
+    width: 145px;
+    height: 25px;
+    line-height: 25px;
+    border: none;
+    background: #fff;
+    float: left;
+}
+.entry_form label .submit{
+    width: 205px;
+    height: 35px;
+    line-height: 35px;
+    background: #FF6704;
+    font: 18px "Microsoft Yahei", SimSun;
+    color: #fff;
+    margin-top: 5px;
+}
+.main_two_right_bottom{
+    margin-top: 30px;
+}
+.main_two_right_bottom b{
+    display: block;
+    width: 38px;
+    height: 30px;
+    background: url(../img/sprites_sub.png) no-repeat;
+    background-position: -45px -10px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.main_two_right_bottom .map_a{
+    display: block;
+    font-size: 12px;
+    color: #eee;
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.main_two_map p{
+    position: relative;
+}
+.main_two_map p a{
+    display: block;
+    width: 72px;
+    height: 72px;
+    background: url(../img/sprites_sub.png) no-repeat;
+    background-position: 0 -44px;
+    position: absolute;
+    left: 50%;
+    margin-left: -36px;
+    top: 50%;
+    margin-top: -36px;
+}
+.main_two_map img{
+    width: 235px;
+    height: 128px;
+}
+.main_two_map_text{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    background: #F3F3F3;
+    font-size: 14px;
+}
+.main_two_left_img{
+    margin-top: 21px;
+}
+.main_two_left_img a{
+    display: block;
+}
+.main_two_left_img a img{
+    width: 745px;
+    height: 95px;
+}
+.maion_two{
+    height: 474px;
+}
+/*主体三*/
+.main_three_left{
+    width: 745px;
+    float: left;
+}
+.main_three_right{
+    float: right;
+}
+.main_three_left_content{
+    width: 745px;
+}
+.main_three_left_c_left{
+    width: 137px;
+    float: left;
+}
+.main_three_left_c_left h3{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    margin-bottom: 1px;
+    background: #34312C;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.main_three_left_c_left dl{
+    margin-bottom: 2px;
+}
+ .main_three_left_c_left dl dt{
+    position: relative;
+ }
+.main_three_left_c_left dl dt a{
+    display: block;
+    padding-left: 10px;
+    height: 32px;
+    line-height: 32px;
+    color: #5c5c5c;
+    background: #E3E3E3;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main_three_left_c_left dl dt a b{
+    display: block;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: url(../img/sprites.png) no-repeat;
+    background-position: right -342px;
+    overflow: hidden;
+}
+.main_three_left_c_left dl dd{
+    height: 60px;
+    padding: 8px 16px;
+    margin-top: 2px;
+    background: #F2F3F6;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+.main_three_left_c_left dl dd p{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main_three_left_c_left dl dd p a{
+    display: block;
+    width: 137px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.main_three_left_c_left dl dd p a i{
+    display: block;
+    width: 137px;
+    height: 76px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(17, 168, 171, 0.46);
+}
+.main_three_left_c_right{
+    width: 588px;
+    float: left;
+    margin-left: 20px;
+}
+.main_three_left_c_right div{
+    display: none;
+}
+.main_three_left_c_right_dl{
+    height: 147px;
+    overflow: hidden;
+}
+.main_three_left_c_right_dl dt{
+    float: left;
+    padding-right: 20px;
+}
+.main_three_left_c_right_dl dd{
+    width: 410px;
+    float: left;
+}
+.main_three_left_c_right_dl dd h3{
+    line-height: 24px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.main_three_left_c_right_dl dd h3 a.tit{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    width: 275px;
+    color: #555;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: normal;
+    overflow: hidden;
+}
+.main_three_left_c_right_dl dd h3 span{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -4px;
+}
+.vote{
+    line-height: 32px;
+    color: #FF6400;
+    font-weight: bold;
+}
+.main_three_left_c_right_dl dd h3 span a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/sprites_sub.png") no-repeat;
+    background-position: 0 -176px;
+    position: absolute;
+    top: 3px;
+    left: -24px;
+}
+.main_three_left_c_right_dl dd p{
+    line-height: 24px;
+}
+.main_three_left_c_right .line{
+    width: 588px;
+    margin-top: 9px;
+    height: 9px;
+    border-top: 1px dashed #000;
+    overflow: hidden;
+}
+.main_three_right_top h2 b{
+    display: block;
+    width: 38px;
+    height: 30px;
+    background: url(../img/sprites_sub.png) no-repeat;
+    background-position: 0 -12px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.main_three_right_top .map_a{
+    display: block;
+    font-size: 12px;
+    color: #eee;
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.main_three_right_top_list ul li{
+    line-height: 23px;
+    height: 23px;
+    padding: 6px 0 0 15px;
+    background: url("../img/sprites_sub.png") no-repeat;
+    background-position: left -112px;
+    overflow: hidden;
+}
+.main_three_right_top_list ul li.new_cur{
+    background-position: left -138px;
+}
+ .main_three_right_bottom{
+    width: 235px;
+    height: 112px;
+    margin-top: 26px;
+    background: #f3f3f3;
+ }
+.main_three_right_bottom p{
+    width: 200px;
+    padding-top: 15px;
+    margin-left: 28px;
+    line-height: 24px;
+    color: #555;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main_two{
+    height: 499px;
+}
+.main_three{
+    height: 327px;
+    margin: 15px 0;
+}
+/*
+图片列表*/
+.main_pic{
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+.main_pic a{
+    display: block;
+    width: 320px;
+    height: 100px;
+    margin-right: 20px;
+    float: left;
+}
+.main_pic a.main_pic_last{
+    margin-right: 0;
+}
+.main_four{
+    height: 342px;
+}
+.main_four_left{
+    width: 660px;
+    height: 342px;
+    float: left;
+}
+.main_four_right{
+    width: 318px;
+    height: 340px;
+    border: 1px solid #ccc;
+    float: right;
+}
+.main_title2{
+    width: 625px;
+    color: #ff6406;
+    font: bold 18px "Microsoft Yahei", SimSun;
+    line-height: 24px;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.main_title2 i{
+    display: block;
+    width: 24px;
+    height: 28px;
+    background: url(../img/sprites.png) no-repeat;
+    background-position: left -357px;
+    position: absolute;
+    left: 6px;
+    top: 0;
+}
+.main_title2 a{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
